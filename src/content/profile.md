@@ -8,5 +8,22 @@ date: '2021-06-06T23:46:37.121Z'
 draft: false
 excerpt: Profile
 ---
+# プロフィール
+名前：中島雄大  
+生年月日：1997/12/24
 
-テスト
+[Github](https://github.com/KituneUdon)
+
+# スキルセット
+## アプリ側
+- 言語：JavaScript
+- フレームワーク：React
+- クラウド：AWS, Azure, Firebase
+
+## 各種ツール
+- GitHub  
+- Slack  
+- Sourcetree  
+
+<!-- 参考サイト -->
+<!-- https://dividable.net/it-career/engineer/engineer-portfolio -->
