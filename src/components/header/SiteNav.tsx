@@ -93,16 +93,12 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                     Home
                   </Link>
                 </li>
-                <li role="menuitem">
+                {/* 使用Starterの説明が書いてあるページ。残すか悩み中 */}
+                {/* <li role="menuitem">
                   <Link to="/about" activeClassName="nav-current">
-                    About
+                    Aout
                   </Link>
-                </li>
-                <li role="menuitem">
-                  <Link to="/tags/getting-started/" activeClassName="nav-current">
-                    Getting Started
-                  </Link>
-                </li>
+                </li> */}
               </ul>
               {isPost && (
                 <NavPostTitle ref={this.titleRef} className="nav-post-title">
@@ -126,9 +122,6 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 </a>
               )}
             </SocialLinks>
-            {config.showSubscribe && (
-              <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
-            )}
           </SiteNavRight>
         </nav>
       </>
