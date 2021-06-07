@@ -2,6 +2,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Gatsby Casper',
     description: 'A port of the casper blog built for gatsby',
@@ -112,7 +113,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Ghost\'s Blog',
+            title: "Ghost's Blog",
             match: '^/blog/',
           },
         ],
