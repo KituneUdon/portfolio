@@ -25,5 +25,5 @@ excerpt: Profile
 - Slack  
 - Sourcetree  
 
-<!-- 参考サイト -->
+<!-- スキルセットの参考サイト -->
 <!-- https://dividable.net/it-career/engineer/engineer-portfolio -->
