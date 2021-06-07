@@ -16,7 +16,7 @@ excerpt: Profile
 
 # スキルセット
 ## アプリ側
-- 言語：JavaScript
+- 言語：JavaScript, C#
 - フレームワーク：React
 - クラウド：AWS, Azure, Firebase
 
