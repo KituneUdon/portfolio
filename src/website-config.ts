@@ -54,10 +54,8 @@ const config: WebsiteConfig = {
   description: 'Web Engineer',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
-  lang: 'en',
+  lang: 'ja',
   siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
   github: 'https://github.com/KituneUdon',
   showSubscribe: true,
   mailchimpAction:
