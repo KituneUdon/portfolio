@@ -12,8 +12,13 @@ excerpt: Profile
 # 概要
 現在地を取得し、その地点の天気を表示するだけのシンプルな天気アプリです。
 
+[アプリ](https://kituneudon.github.io/weather-app/)
 [ソースコード](https://github.com/KituneUdon/weather-app)  
 [Storybook](https://www.chromatic.com/builds?appId=60ac4c700647b700446c2f77)
+
+## アプリの動作環境
+- chrome
+- firefox
 
 # 作成経緯
 以下2つの技術を用いてアプリを作成したいと思いました。

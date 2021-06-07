@@ -11,8 +11,9 @@ excerpt: Profile
 
 # 概要
 Reactの基本を一通り理解したので、それらをアウトプットするために作成したアプリです。
-Reactに関するアウトプットに集中したかったため、バックエンドはFirebaseを使用しました。
+Reactのアウトプットに集中したかったため、バックエンドはFirebaseを使用しました。
 
+[アプリ](https://todo-strage.web.app)
 [ソースコード](https://github.com/KituneUdon/todo-storage)
 
 # 機能一覧
