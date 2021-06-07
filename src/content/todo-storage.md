@@ -10,7 +10,27 @@ excerpt: Profile
 ---
 
 # 概要
-Todoアプリ
+Reactの基本を一通り理解したので、それらをアウトプットするために作成したアプリです。
+Reactに関するアウトプットに集中したかったため、バックエンドはFirebaseを使用しました。
 
-## URL
-https://github.com/KituneUdon/todo-storage
+[ソースコード](https://github.com/KituneUdon/todo-storage)
+
+# 機能一覧
+- ユーザ登録
+- ログイン
+- タスク管理機能
+  - タスクの追加
+  - タスクの削除
+  - タスクの完了
+  - タスクの変更
+# 使用技術
+- React 17.0.2
+- TypeScript 4.1.5
+- Firebase
+- Firestore
+- Firebase Authorization
+- ESLint
+- Prettier
+- Day.js
+- Material Ui
+- React Router DOM
