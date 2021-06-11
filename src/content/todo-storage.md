@@ -13,7 +13,7 @@ excerpt: Profile
 ログイン機能とタスクのCRUD操作ができる最低限の機能を搭載したTodoアプリ。
 
 [アプリ](https://todo-strage.web.app)  
-[ソースコード](https://github.com/KituneUdon/todo-storage)  
+[ソースコード](https://github.com/yudai-nakajima/todo-storage)  
 
 # 作成経緯
 Reactの基本を一通り理解したので、それらをアウトプットするためにアプリを作成しようと思いました。

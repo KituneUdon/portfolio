@@ -12,8 +12,8 @@ excerpt: Profile
 # 概要
 現在地を取得し、その地点の天気を表示するだけのシンプルな天気アプリです。
 
-[アプリ](https://kituneudon.github.io/weather-app/)  
-[ソースコード](https://github.com/KituneUdon/weather-app)    
+[アプリ](https://https://yudai-nakajima.github.io/weather-app/)  
+[ソースコード](https://github.com/yudai-nakajima/weather-app)    
 [Storybook](https://www.chromatic.com/builds?appId=60ac4c700647b700446c2f77)  
 
 # 作成経緯
