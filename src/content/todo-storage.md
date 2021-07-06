@@ -14,8 +14,8 @@ excerpt: Profile
 ログイン機能とタスクの CRUD 操作ができる最低限の機能を搭載した Todo アプリ。
 
 [アプリ](https://todo-strage.web.app)  
-アプリには以下ユーザでログイン可能
-メールアドレス：example@example.com
+アプリには以下ユーザでログイン可能  
+メールアドレス：example@example.com  
 パスワード：example
 
 [ソースコード](https://github.com/yudai-nakajima/todo-storage)
