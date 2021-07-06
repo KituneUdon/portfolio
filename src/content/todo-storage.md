@@ -10,17 +10,25 @@ excerpt: Profile
 ---
 
 # 概要
-ログイン機能とタスクのCRUD操作ができる最低限の機能を搭載したTodoアプリ。
+
+ログイン機能とタスクの CRUD 操作ができる最低限の機能を搭載した Todo アプリ。
 
 [アプリ](https://todo-strage.web.app)  
-[ソースコード](https://github.com/yudai-nakajima/todo-storage)  
+アプリには以下ユーザでログイン可能
+メールアドレス：example@example.com
+パスワード：example
+
+[ソースコード](https://github.com/yudai-nakajima/todo-storage)
 
 # 作成経緯
-Reactの基本を一通り理解したので、それらをアウトプットするためにアプリを作成しようと思いました。
-Todoアプリであれば難しくて作成が止まるということがないと思い、Todoアプリにしました。
 
-Reactに集中したかったためバックエンドはFirebaseを使用しました。
+React の基本を一通り理解したので、それらをアウトプットするためにアプリを作成しようと思いました。
+Todo アプリであれば難しくて作成が止まるということがないと思い、Todo アプリにしました。
+
+React に集中したかったためバックエンドは Firebase を使用しました。
+
 # 機能一覧
+
 - ユーザ登録
 - ログイン
 - タスク管理機能
@@ -28,7 +36,9 @@ Reactに集中したかったためバックエンドはFirebaseを使用しま�
   - タスクの削除
   - タスクの完了
   - タスクの変更
+
 # 使用技術
+
 - React 17.0.2
 - TypeScript 4.1.5
 - Firebase
