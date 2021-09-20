@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '本ポートフォリオについて'
+title: '本サイトについて'
 author: [Yudai Nakajima]
 tags: ['Portfolio']
 image: img/callum-shaw-555357-unsplash.jpg
@@ -8,9 +8,18 @@ date: '9999-12-30T00:00:00.000Z'
 draft: false
 excerpt: Profile
 ---
-# 使用技術
+
+# サイト概要
+
+本サイトは Github に挙げたリポジトリの中で自分で 1 から作成したものを紹介するためのサイト
+
+# 本サイトを構築する際に使用した技術
+
+## 使用技術
+
 - React
 - Gatsby
 
-## Gatsby Starter
-本ポートフォリオは[gatsby-starter-ghost](https://www.gatsbyjs.com/starters/TryGhost/gatsby-starter-ghost/)をベースに作成しました。
+### Gatsby Starter
+
+本サイトは[gatsby-starter-ghost](https://www.gatsbyjs.com/starters/TryGhost/gatsby-starter-ghost/)をベースに作成しました。
