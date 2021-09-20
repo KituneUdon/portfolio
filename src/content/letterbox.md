@@ -18,6 +18,20 @@ excerpt: Profile
 - 店舗従業員メッセージ確認フロントエンド
 - バックエンド
 
+それぞれのソースコードは以下の通り
+
+店舗利用者メッセージ送信フロントエンド
+https://github.com/yudai-nakajima/letter-box-frontend-management
+
+店舗従業員メッセージ確認フロントエンド
+https://github.com/yudai-nakajima/letter-box-frontend-client
+
+バックエンド
+https://github.com/yudai-nakajima/letter-box-backend
+
+また、API 仕様書も作成している
+https://github.com/yudai-nakajima/letter-box-api
+
 # 作成経緯
 
 Rails チュートリアルを一通りやったので、Rails + React でアプリを作成したかった  
@@ -78,4 +92,12 @@ cookie を利用できるので cookie にトークンを格納する Gem を探
 ## API 仕様書を open api で作成したが有効活用できなかった
 
 API 仕様書作成 →Rails エンドポイント作成して API 仕様書に沿っているかテストするという流れで開発を進めたかったが、  
-Rails の理解度が低く Rails エンドポイント作成 →API 仕様書作成の順序になってしまった
+Rails の理解度が低く Rails エンドポイント作成 → API 仕様書作成の順序になってしまった。  
+順序が逆になったことで API 仕様書を作成するモチベーションが低下し、API 仕様書の管理が雑になった。
+実際、Rails でコードを作成したが API 仕様書に反映していないエンドポイントが存在する。
+
+### API 仕様書を作成する当初のモチベ-ション
+
+- committee-rails を用いてテストを実装する
+- フロントエンドを先に開発することもできるようにする
+  - Prism を用いて API 仕様書に基づいたモックサーバを立てる
