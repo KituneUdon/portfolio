@@ -1,17 +1,17 @@
 ---
 layout: post
-title: 'Letter Box'
+title: 'Letter Box (システム開発中)'
 author: [Yudai Nakajima]
 tags: ['Portfolio']
 image:
 date: '2021-06-06T23:46:37.121Z'
-draft: true
+draft: false
 excerpt: Profile
 ---
 
 # 概要
 
-店舗利用者が店舗従業員に対して匿名メッセージを送れるシステム
+店舗利用者が店舗従業員に対して匿名メッセージを送れるシステム  
 本システムは以下３つのシステムで構成されている
 
 - 店舗利用者メッセージ送信フロントエンド
@@ -20,7 +20,7 @@ excerpt: Profile
 
 # 作成経緯
 
-Rails チュートリアルを一通りやったので、Rails + React でアプリを作成したかった
+Rails チュートリアルを一通りやったので、Rails + React でアプリを作成したかった  
 また、各言語それぞれの作成目的は以下の通り
 
 ## Rails
@@ -34,7 +34,7 @@ Rails チュートリアルを一通りやったので、Rails + React でアプ
 
 # 機能一覧
 
-フロントエンドは店舗利用者用と店舗従業員用の 2 つに分けているので、
+フロントエンドは店舗利用者用と店舗従業員用の 2 つに分けているので、  
 それぞれで機能一覧を記述する
 
 ## 店舗利用者用
@@ -65,6 +65,17 @@ Rails チュートリアルを一通りやったので、Rails + React でアプ
 
 # 反省点
 
-- 認証にトークンを用いたくそのために devise-jwt を採用したがこの選択は失敗だった
-  - devise-jwt は cookie を利用しない
-    - devise-jwt は cookie を使えない環境での選択肢として作成された Gem のため
+## 認証にトークンを用いたくそのために devise-jwt を採用したがこの選択は失敗だった
+
+devise-jwt は cookie を利用できないための Gem だと Readme に書いてあった
+
+> This gem is just a replacement for cookies when these can't be used
+
+ここを読まずに名前だけで使用を決定したが、この選択は開発を進めるにつれ失敗だと分かった。  
+cookie を利用できるので cookie にトークンを格納する Gem を探して、  
+そちらを採用したほうがセキュリティ的にも開発工数的にも良かった。
+
+## API 仕様書を open api で作成したが有効活用できなかった
+
+API 仕様書作成 →Rails エンドポイント作成して API 仕様書に沿っているかテストするという流れで開発を進めたかったが、  
+Rails の理解度が低く Rails エンドポイント作成 →API 仕様書作成の順序になってしまった
