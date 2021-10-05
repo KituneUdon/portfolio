@@ -49,3 +49,8 @@ React に集中したかったためバックエンドは Firebase を使用し�
 - Day.js
 - Material Ui
 - React Router DOM
+
+# 反省点
+
+- ディレクトリ構成・コードの可読性まで意識を向けることができなかった
+  - 次は React のディレクトリ構成を学習して、それを実践したい
