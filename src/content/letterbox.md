@@ -55,6 +55,10 @@ Rails チュートリアルを一通りやったので、Rails + React でアプ
 
 - メッセージ送信機能
 
+### サンプル動画
+
+https://youtu.be/UYMCDHHeB_U
+
 ## 店舗従業員用
 
 - ログイン機能
