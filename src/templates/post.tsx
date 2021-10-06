@@ -13,7 +13,7 @@ import { Footer } from '../components/Footer';
 import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
 import PostContent from '../components/PostContent';
 import { ReadNext } from '../components/ReadNext';
-import { Subscribe } from '../components/subscribe/Subscribe';
+// import { Subscribe } from '../components/subscribe/Subscribe';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
@@ -218,7 +218,8 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                           {displayDatetime}
                         </time>
                         <span className="byline-reading-time">
-                          <span className="bull">&bull;</span>{post.fields.readingTime.text}
+                          <span className="bull">&bull;</span>
+                          {post.fields.readingTime.text}
                         </span>
                       </div>
                     </section>
@@ -238,7 +239,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
               <PostContent htmlAst={post.htmlAst} />
 
               {/* The big email subscribe modal content */}
-              {config.showSubscribe && <Subscribe title={config.title} />}
+              {/* {config.showSubscribe && <Subscribe title={config.title} />} */}
             </article>
           </div>
         </main>
@@ -443,7 +444,7 @@ const PostFullImage = styled.figure`
 `;
 
 export const query = graphql`
-  query($slug: String, $primaryTag: String) {
+  query ($slug: String, $primaryTag: String) {
     logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
       childImageSharp {
         fixed {
