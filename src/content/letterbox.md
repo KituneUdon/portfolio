@@ -20,16 +20,16 @@ excerpt: Profile
 
 それぞれのソースコードは以下の通り
 
-店舗利用者メッセージ送信フロントエンド
+店舗利用者メッセージ送信フロントエンド  
 https://github.com/yudai-nakajima/letter-box-frontend-management
 
-店舗従業員メッセージ確認フロントエンド
+店舗従業員メッセージ確認フロントエンド  
 https://github.com/yudai-nakajima/letter-box-frontend-client
 
-バックエンド
+バックエンド  
 https://github.com/yudai-nakajima/letter-box-backend
 
-また、API 仕様書も作成している
+また、API 仕様書を OpenAPI に基づいて作成している  
 https://github.com/yudai-nakajima/letter-box-api
 
 # 作成経緯
