@@ -95,7 +95,7 @@ https://youtu.be/UYMCDHHeB_U
 
 # 反省点
 
-## 認証にトークンを用いたくそのために devise-jwt を採用したがこの選択は失敗だった
+## 認証にトークンを用いたくそのために devise-jwt を採用した
 
 devise-jwt は cookie を利用できないための Gem だと Readme に書いてあった
 
