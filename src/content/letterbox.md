@@ -104,7 +104,7 @@ devise-jwt は cookie を利用できないための Gem だと Readme に書い
 ここを読まずに名前だけで gem を選定した。
 今回は cookie を利用できるので他の gem を使用したほうが良かった。
 
-## API 仕様書を open api で作成したが有効活用できなかった
+## API 仕様書を有効活用できなかった
 
 1. API 仕様書作成
 2. Rails エンドポイント作成 API
