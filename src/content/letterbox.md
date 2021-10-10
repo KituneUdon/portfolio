@@ -4,7 +4,7 @@ title: 'Letter Box (システム開発中)'
 author: [Yudai Nakajima]
 tags: ['Portfolio']
 image:
-date: '2021-06-06T23:46:37.121Z'
+date: '2021-10-06T23:46:37.121Z'
 draft: false
 excerpt: Profile
 ---
@@ -60,7 +60,7 @@ Rails チュートリアルを一通りやったので、Rails + React でアプ
 
 店舗・従業員を選択してメッセージ送信する一連の流れを動画化している
 
-https://youtu.be/UYMCDHHeB_U
+https://youtu.be/tQZmONfSLb0
 
 ## 店舗従業員用
 
@@ -95,7 +95,7 @@ https://youtu.be/UYMCDHHeB_U
 
 # 反省点
 
-## 認証にトークンを用いたくそのために devise-jwt を採用した
+## devise-jwt の採用
 
 devise-jwt は cookie を利用できないための Gem だと Readme に書いてあった
 
